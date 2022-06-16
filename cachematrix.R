@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## this function cache the inverse of a matrix for future use
+## or can get us the inverse through get method
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -18,6 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
+## this function check whether we have the cached version of matrix 
+## or not. and return the cached version or set the inverse
 
 cacheSolve <- function(x, ...) {
     m <- x$getinverse()
